@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            color:white;
+        }
+        .menu{
+            max-width: 1640px;
+            display: flex;
+            justify-content: space-between;
+            margin: 30px;
+        }
+        html{
+            background: #0C131E;
+        }
+        a{
+            text-decoration: 0;
+            color: white;
+        }
+        .nav{display:flex; gap:40px;}
+        .media-icon{width: 100px;
+            height: 100px;
+            margin-left:140px;
+            margin-right: 140px;
+           }
+        .intro{
+            max-width: 1640px;
+            font-size: large;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+             }
+             .profile-photo{
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+             }
+             .contacts{
+                height: 40px;
+                border: 1px solid rgba(123, 74, 226, 0.5);
+border-radius: 16px;
+             }
+             .project{
+                max-width: 320px;
+                border: 1px solid rgba(123, 74, 226, 0.5);
+border-radius: 16px;
+padding: 20px;  }
+.portfolio{
+    display: flex;
+    justify-content: space-around;
+
+}
+.bestworks{
+    display: flex;
+    justify-content: space-around; 
+}
+.bestworks2{
+                max-width: 320px;
+                border: 1px solid rgba(123, 74, 226, 0.5);
+border-radius: 16px;
+padding: 20px;  }
+.project-image2{
+    width: 315px;
+    height: 250px;
+}
+.wecanwork{font-size: 28px;
+    display:flex;
+    justify-content: center;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+.button {
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  outline: none;
+  display: inline-block;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 12px 16px;
+  color: #fff;
+  background: transparent;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  margin: 12px;
+}
+
+.button span,
+.button i {
+  z-index: 2;
+}
+
+.button:active {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.button::before,
+.button::after {
+  content: "";
+  position: absolute;
+  transition: all 0.3s;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.button::before {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.button:active::before {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* --- Кнопка 1 --- */
+
+#register i {
+  color: #e8d427;
+}
+
+#register::before,
+#register:active::before {
+  opacity: 0;
+  transform: scale(1, 0.1);
+}
+
+#register:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+/* --- Кнопка 2 --- */
+
+#button-2 i {
+  color: #9b59b6;
+}
+
+#button-2::before {
+  opacity: 0;
+  transform: scale(0.1, 0.1);
+}
+
+#button-2:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+/* --- Кнопка 3 --- */
+
+#button-3 i {
+  color: #e67e22;
+}
+
+#button-3::before {
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  -webkit-transform: translateX(-101%) translateY(-25%) rotate(45deg);
+  transform: translateX(-101%) translateY(-25%) rotate(45deg);
+}
+
+#button-3:hover::before {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+.button i {
+  margin-right: 4px;
+}
+
+div {
+  margin: 24px;
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: Roboto;
+  margin-top: 6px;
+}
+.ifyou{
+    font-size: 10px;
+    margin-top: 50px;
+}
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <img src="images/Logo.svg" alt="" class="logo">
+        <div class="nav">
+            <a href="#"><span class="list">HOME</span></a>
+            <a href="https://www.instagram.com/3girlzzz.team/?igshid=NDk5N2NlZjQ%3D"><span class="list">INSTAGRAM</span></a>
+            <a href="https://www.behance.net/3girlzzzteam/members"><span class="list">BEHANCE</span></a>
+            <a href="www.tiktok.com/@3girlzzz.team"><span class="list">TIKTOK</span></a>
+        </div>
+        </div>
+    <div class="intro">
+        <div class="intro-text">
+            <h1>3 girlzzz.team</h1>
+            <p>We are a team of novice designers, tiktokers and html developers.</p>
+            <div class="media"></div>
+        </div>
+        
+        <img class="profile-photo" src="/Users/user/Desktop/мусор для скачивания/ava.jpg" alt="">
+            <img src="images/WhatsappLogo.png" alt="">
+        </div>
+    </div>
+    <h1>About us</h1>
+    <div class="portfolio">
+        <div class="project">
+            <h3>Adel Aidarova</h3>
+            <p>I am 16 years old. I study at Ala-Too College as a designer. In my free time I like to watch Turkish TV series or shoot tiktoks.</p>
+            <img src="images/1561a2bdff6e9bc057d7895d60996222.jpg" alt="" class="project-image">
+        </div>
+        <div class="project">
+            <h3>Madina Islamova</h3>
+            <p>I am 17 years old. I dream of becoming the best designer and reaching great heights in my profession.</p>
+            <img src="images/1561a2bdff6e9bc057d7895d60996222.jpg" alt="" class="project-image">
+        </div>
+        <div class="project"><h3>Meerim Shadymanova</h3>
+            <p>I am 17 years old. I am an open person and can easily make friends with people around me. In my free time I like to read books and bake pies and cakes.</p>
+            <img src="images/1561a2bdff6e9bc057d7895d60996222.jpg" alt="" class="project-image"></div>
+    </div>
+    <h1>Portfolio</h1>
+    <div class="bestworks">
+        <div class="bestworks2">
+            <h3>Adel</h3>
+            <p>This project was made for coffee shop with an emphasis on pancakes. the whisk means the symbol of the coffee shop, because to knead the dough for pancakes you will need a whisk</p>
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/863e24155710009.635991322778c.jpg" alt="" class="project-image2">
+        </div>
+        <div class="bestworks2">
+            <h3>Madina</h3>
+            <p>This bottle of juice was made for company "ALMI". The packaging is made in a minimalist style</p>
+            <img src="/Users/user/Desktop/мусор для скачивания/madina.jpg" alt="" class="project-image2">
+        </div>
+        <div class="bestworks2"><h3>Meerim</h3>
+            <p>This business card was made for the Avenue coffee shop. It contains all the data to find or contact the company.</p>
+            <img src="/Users/user/Desktop/мусор для скачивания/meerim.jpg" alt="" class="project-image2"></div>
+            
+    </div>
+</div>
+<div class="wecanwork"><h1>We can work with:</h1>
+</div>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/2101px-Adobe_Illustrator_CC_icon.svg.png" alt="" class="media-icon">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1051px-Adobe_Photoshop_CC_icon.svg.png" alt="" class="media-icon">
+<img src="https://cdn.iconscout.com/icon/free/png-256/adobe-aftereffects-file-4238623-3516496.png" alt="" class="media-icon">
+</div>
+<div>
+    <div class="ifyou">
+        <h1>If you have any questions or you are interested in our team, you can contact us by clicking on the button below</h1>
+    </div>
+  <a id="register" class="button purple" href="https://wa.me/996777323119">
+        <i class="fa fa-user-plus"></i>
+        <span>Contact us on WhatsApp</span>
+      </a>
+</body>
+</html>
